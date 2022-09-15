@@ -41,7 +41,6 @@ function createCard(data, index) {
     <p>
       ${data.question}
     </p>
-    <br>
     <p>
       ${data.vivencias}
     </p>
@@ -50,11 +49,10 @@ function createCard(data, index) {
     <p>
       ${data.answer}
     </p>
-    <br>
     <p>
       ${data.sex}
     </p>
-  </div>
+    </div>
 </div>
 `;
 
@@ -64,7 +62,6 @@ function createCard(data, index) {
   cardsEl.push(card);
 
   cardsContainer.appendChild(card);
-
   updateCurrentText();
 }
 
